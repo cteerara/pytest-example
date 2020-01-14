@@ -10,4 +10,4 @@
 1. Create a python test file with functions name leading with "test_"
 2. In the functions, call the functions that you want to test. Use assert function(argv) == expected_output
 ## Run coverage
-1. pytest --cov=.
+1. pytest --cov=. --cov-report=term-missing
