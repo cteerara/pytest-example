@@ -1,4 +1,4 @@
-# How to use pytest and coverage
+# A very minimal example on how to run a unit test in your python project 
 ## Installs
 1. pip3 install --user pytest
 2. pip3 install --user coverage
