@@ -1,4 +1,3 @@
 [run]
-omit=main.py
-    module_excluded_from_report.py
+omit=module_excluded_from_report.py
     tests/*
