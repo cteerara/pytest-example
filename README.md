@@ -10,7 +10,7 @@ python3 -m pip install --user pytest-cov
 ```
 ## Configure your code coverage
 1. Create file .coveragerc in your local directory and add [run] to the very first line
-2. Add file you'd like to omit from coverage by including omit=omitted_file1.py omitted_file2.py etc.
+2. Add files you'd like to omit from the coverage report by including omit=omitted_file1.py omitted_file2.py etc.
 ## Create tests
 1. Create a python test file with functions name leading with "test_". All "test_*.py" files will be considered a test file and will be run
 2. In the "test_" functions, call the functions that you want to test by using: assert function(argv) == expected_output
