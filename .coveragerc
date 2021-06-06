@@ -1,3 +1,4 @@
 [run]
 omit=main.py
-    scalc.py
+    module_excluded_from_report.py
+    tests/*
